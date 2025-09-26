@@ -5,3 +5,15 @@
 ul li { 
     list-style-type: square;
 }
+a {
+    display: inline-block;
+    color:#000000; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border: 1px solid #42b2fd;
+    transition: all 0.3s ease; 
+}
+a:hover {
+    background-color: #3498db; 
+    color: white; 
+}
