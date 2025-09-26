@@ -7,13 +7,74 @@ ul li {
 }
 a {
     display: inline-block;
-    color:#000000; 
+    color:#df2727; 
     text-decoration: none; 
     padding: 5px 10px; 
-    border: 1px solid #42b2fd;
-    transition: all 0.3s ease; 
+    border: 1px solid #39df84;
+    transition: all 0.3s ease;
+    background-color: yellow;
 }
 a:hover {
-    background-color: #3498db; 
+    background-color: #db3442; 
     color: white; 
+}
+ 
+body {
+    background-color: antiquewhite;
+} 
+
+header { 
+    background-color: rgb(0, 26, 255);
+}
+h1 {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(81, 165, 42);
+    text-shadow: -2px -2px 4px red;
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: rgb(245, 46, 46);
+
+}
+h3{
+    font-size: 30px;
+}
+p {
+    
+    font-family: sans-serif;
+    background-color: rgb(255, 208, 0);
+    margin-bottom: 12px;
+    font-size: 19px;
+}
+img {
+    float: left;
+    margin-right: 1em;
+}
+main {
+    clear: left;
+}
+aside {
+    font-family: sans-serif;
+    color: #db3442;
+    background-color: #39df84;
+}
+footer {
+    background-color: black;
+
+} 
+footer p {
+background-color: rgb(0, 0, 0); 
+font: 1em courier;
+color: aqua;
+}
+.feature-card {
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(255, 67, 61);
+background-color: azure;
+}
+video {
+    width: 100%;
 }
